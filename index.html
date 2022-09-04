@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>TK Photography Gallery</title>
+  </head>
+
+  <body>
+    <!-- Header starts -->
+    <header>
+      <h1>TK PHOTOGRAPHY</h1>
+      <nav>
+        <ul>
+          <li><a>ABOUT</a></li>
+          <li><a>GALLERY</a></li>
+          <li><a>CONTACT</a></li>
+          <li id="top">^<br /><a>TOP</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Header ends -->
+    <!-- About section starts -->
+    <section class="about">
+      <img
+      src="/images/TK.png"
+      alt="silhouette of a photographer taking a picture of the sky using a tripod"
+    />
+      <h2>ABOUT</h2>
+      <p>
+        Hello!<br />
+        I’m TK and I’m a photographer. <br />I love looking at life through the
+        lens of my camera. Landscape photography is my speciality and it’s taken
+        me all over the world.
+      </p>
+    </section>
+<!-- About section ends -->
+<!-- Gallery section starts -->
+    <main class="gallery">
+      <h2>GALLERY</h2>
+      <p>
+        Here are some highlights of my work. The locations and year are in the
+        caption.
+      </p>
+      <figure>
+        <img src="/images/Chile.png" alt="Sunset beach showing the tide coming in near a mountain in Chile." />
+        <figcaption class="black-top-left">Chile, 2001</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/Guatemala.png" alt="Purple sunset of beach with mountains in the background in Guatemala." />
+        <figcaption class="white-top-left">Guatemala, 1997</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/Hawaii.png" alt="Helicopter view of a green jungle near the ocean in Hawaii." />
+        <figcaption class="white-bottom-right">Hawaii, 2010</figcaption>
+      </figure>
+      <!-- The next three images will be longer -->
+      <figure class="long-img">
+        <img src="/images/Iran.png" alt="Iran desert with red and yellow bushes with a sunset in the background." />
+        <figcaption class="black-top-left">Iran, 1999</figcaption>
+      </figure>
+      <figure class="long-img">
+        <img src="/images/Ireland.png" alt="Green valley with trees on different slopes in Ireland." />
+        <figcaption class="white-bottom-right">Ireland, 2012</figcaption>
+      </figure>
+      <figure class="long-img">
+        <img src="/images/Italy.png" alt="Lake with mountain in background in Italy." />
+        <figcaption class="white-bottom-left">Italy, 2015</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/Moab-Desert.png" alt="Picture of the sunset from the view of the inside of a mountain in Moab Desert." />
+        <figcaption class="white-bottom-right">Moab Desert, 2020</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/Rocky-Mountains.png" alt="Rocky Mountains on the shore." />
+        <figcaption class="black-top-left">Rocky Mountains, 2009</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/Switzerland.png" alt="Tall view of the mountains in Switzerland." />
+        <figcaption class="black-bottom-left">Switzerland, 2014</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/UK.png" alt="Green valley in the UK." />
+        <figcaption class="white-bottom-right">UK, 2005</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/USA.png" alt="Flower field in the USA." />
+        <figcaption class="white-top-left">USA, 2021</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/Wyoming.png" alt="Lake, mountains, and trees in Wyoming." />
+        <figcaption class="white-top-left">Wyoming, 2021</figcaption>
+      </figure>
+    </main>
+<!-- Gallery section ends -->
+<!-- Contact section starts -->
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Please fill out this form and I’ll connect with you soon.</p>
+      <form action="#">
+        <label for="full_name">NAME</label>
+        <input
+          type="text"
+          name="full_name"
+          id="full_name"
+          placeholder="YOUR FULL NAME"
+        />
+        <label for="email_address">EMAIL</label>
+        <input
+          type="text"
+          name="email_address"
+          id="email_address"
+          placeholder="ENTER YOUR EMAIL ADDRESS"
+        />
+        <label for="message">MESSAGE</label>
+        <input
+          type="text"
+          name="message"
+          id="message"
+          placeholder="WHAT CAN I HELP YOU WITH?"
+        />
+        <input type="submit" name="submit" value="SUBMIT" />
+      </form>
+    </section>
+<!-- Contact section ends -->
+<!-- Footer section starts -->
+    <footer>
+      <p>Copyright 2021 TK Photography</p>
+    </footer>
+<!-- Footer section ends -->
+  </body>
+</html>
